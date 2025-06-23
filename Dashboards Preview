@@ -1,5 +1,227 @@
 Dashboard 1- This dashboard provides a comprehensive overview of job role distributions and candidate profiles across several dimensions such as company, experience, preference, work type, salary, qualifications, and skills. It is designed to help HR professionals, recruiters, or business analysts explore workforce characteristics and hiring trends.
-Dashboard 2 - This dashboard presents insights into the geographical and organizational distribution of female Data Engineers and Data Scientists with a B.Tech qualification, graduated in 2023.
-Dashboard 3 - This dashboard offers a summary view of the top 5 job roles in terms of revenue contribution, along with their associated work type and job classifications. It is intended to support decision-making related to internship programs, revenue-driving roles, and role-based distribution analysis.
-Dashboard 4 - This dashboard visualizes the geographic and categorical distribution of job applicants using latitude-based mapping and segmented visual bands. It’s designed to analyze job applicants by their location, job title, qualification, application portal, and contact person.
+1. Company
+Displays job titles, associated roles, and the companies offering them.
 
+Includes a horizontal bar chart to represent company size (number of employees), giving insight into which companies are hiring and their scale.
+
+2. Experience
+Breaks down job roles by experience ranges (e.g., "1 to 8 Years", "5 to 11 Years").
+
+Allows filtering to assess experience trends across different roles.
+
+3. Preference
+Shows candidate preferences based on gender (e.g., Female).
+
+Lists preferred job titles and roles, useful for diversity and inclusion analysis.
+
+4. Work Type
+Differentiates between contract and other work types.
+
+Helps identify which roles are offered as contract vs. full-time/permanent positions.
+
+5. Salary Range
+Visualizes the salary distribution per role.
+
+Useful for understanding compensation benchmarks across roles.
+
+6. Qualifications
+Highlights the educational background (e.g., B.Tech) associated with various job titles.
+
+Assists in mapping job roles to academic qualifications.
+
+7. Skills
+Lists relevant skills tied to each job title and role.
+
+Includes a bar chart showing the popularity or demand of specific skills.
+
+📊 Interactive Filters
+Located on the right side of the dashboard:
+
+Job Title
+
+Experience
+
+Preference
+
+Work Type
+
+Salary Range
+
+Qualifications
+
+Skills
+These filters enable dynamic slicing of the dataset for targeted analysis.
+
+✅ Use Cases
+Workforce planning
+
+Recruitment strategy
+
+Skills gap analysis
+
+Salary benchmarking
+
+Diversity and inclusion tracking
+
+Dashboard 2 - This dashboard presents insights into the geographical and organizational distribution of female Data Engineers and Data Scientists with a B.Tech qualification, graduated in 2023.
+1. Country-Level Map View
+World map visualization plots the countries (e.g., Brazil, Germany, Australia) based on the latitude of hiring activity.
+
+Shows the concentration of female candidates with:
+
+Role: Data Engineer
+
+Qualification: B.Tech
+
+Graduation Year: 2023
+
+Useful for analyzing regional hiring trends for specific demographics.
+
+🏢 2. Company/Title Table View
+A bar chart lists companies hiring B.Tech female Data Scientists, including:
+
+Amazon, Capgemini, Cognizant, Flipkart, HCL, Intel, Swiggy, Wipro, Zomato
+
+Provides a quick view of top employers hiring for this profile.
+
+Job title is fixed to Data Scientist, while filters are applied for gender (Female) and qualification (B.Tech).
+
+🎯 Interactive Filters (on the right):
+Company Name
+
+Job Title
+
+Role
+
+Qualification
+
+Gender
+
+Country
+
+These filters allow users to dynamically explore data across different slices, e.g., compare job title trends across countries or filter by employer.
+
+✅ Use Cases
+Analyze gender-based hiring across countries.
+
+Identify top companies hiring recent B.Tech graduates in data roles.
+
+Understand global demand for Data Scientists and Engineers.
+
+Support DEI (Diversity, Equity, Inclusion) hiring strategy reporting.
+
+Dashboard 3 - This dashboard offers a summary view of the top 5 job roles in terms of revenue contribution, along with their associated work type and job classifications. It is intended to support decision-making related to internship programs, revenue-driving roles, and role-based distribution analysis.
+1. Revenue by Job Title and Role (Left Panel)
+Displays the top 5 job titles ranked by revenue generated:
+
+Cloud Architect: ₹4,980 Crores
+
+AI/ML Engineer: ₹4,565 Crores
+
+Data Scientist: ₹4,150 Crores
+
+Analyst: ₹3,984 Crores
+
+Account Director: ₹2,490 Crores
+
+Bubble size represents the frequency/count of each role.
+
+Helps visualize which roles are contributing most to the organization's financial outcomes.
+
+🧑‍💼 2. Job Title and Role (Top-Right Panel)
+A bar chart showing job titles (e.g., Account Director) mapped to specific roles such as:
+
+AI/ML Engineer
+
+Analyst
+
+Cloud Architect
+
+Data Scientist
+
+Digital Marketing Manager
+
+Supports role classification within job titles and enables quick comparison of role counts.
+
+🛠️ 3. Work Type by Role (Bottom-Right Panel)
+All listed roles are associated with the Intern work type.
+
+This bar chart displays the count of internship opportunities available for each role, confirming that all top 5 revenue-generating roles are currently being offered as internships.
+
+🎯 Interactive Filters (Right Side)
+Revenue
+
+Job Title
+
+Role
+
+Work Type
+
+These filters enable dynamic exploration of:
+
+Revenue patterns by role
+
+Work type distributions (e.g., Intern, Full-time)
+
+Specific job titles and their respective contribution
+
+✅ Use Cases
+Prioritize hiring or internship focus on high-revenue roles
+
+Strategize intern training and development programs
+
+Identify valuable job roles for resource allocation and future recruitment
+
+Enable business units to align workforce planning with revenue impact
+
+Dashboard 4 - This dashboard visualizes the geographic and categorical distribution of job applicants using latitude-based mapping and segmented visual bands. It’s designed to analyze job applicants by their location, job title, qualification, application portal, and contact person.
+1. Geographic Latitude Visualization (Center Panel)
+The map is split into multiple vertical segments, each representing a unique combination of:
+
+Job Title (e.g., Data Scientist, Data Analyst)
+
+Qualification (e.g., PhD, B.Tech, M.Tech)
+
+Job Portal (Filtered for "Indeed")
+
+Contact Person (e.g., Avyaan, Archer, Anand)
+
+Each colored map section shows the regional spread of candidates tied to the above attributes.
+
+Latitude is used to position the data geographically, while value bars underneath show density/intensity.
+
+🧾 2. Hierarchical Breakdown (Top Axis Titles)
+For each vertical column:
+
+Job Title / Qualification / Job Portal / Contact Person are listed as headers.
+
+This helps to quickly identify which combinations of roles and qualifications are active on the Indeed portal, and who the contact person is.
+
+🎯 Interactive Filters (Right Sidebar)
+Job Portal (filtered to "Indeed")
+
+Job Title
+
+Qualification
+
+Country
+
+Contact Person
+
+Latitude
+
+These filters allow dynamic filtering of map segments to zoom into specific job roles, qualifications, and contact points.
+
+📈 Bottom Axis: Value Bar
+The horizontal axis under each segment represents a "Value" metric (possibly number of applications or interest score).
+
+Uniform scaling (0K to 50K) allows easy comparison across segments.
+
+✅ Use Cases
+Understand where candidates are located by job/qualification clusters.
+
+Evaluate portal performance (e.g., how Indeed is contributing to various job applications).
+
+Track recruitment efforts by contact person.
+
+Aid geographic targeting for hiring campaigns and job promotions.
